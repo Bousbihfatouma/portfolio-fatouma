@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <meta charset="UTF-8">
+                <title>Portfolio fatouma</title>
+                    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+     
+      <header>
+          <a href="#" class="logo">portfolio</a>
+            <div class="navbar"></div>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About me</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Work</a></li>
+              <li><a href="#">Design jewelry</a></li>
+              <li><a href="#">Art deco</a></li>
+              <li><a href="#">contact</a></li>
+            </ul>
+      </header>
+       <video autoplay loop muted plays-inline class="video">
+        <source src="/Media/video.mp4"type="video/mp4">
+        </video>
+      <section class="wrapper">
+        <div class="cols cols0">
+            <span class="topline">Bonjour</span>
+              <h1>I'm<span class="multitext"></span></h1>
+                <p>Bienvenue dans mon Portfolio</p>
+                <div class="btn">
+                  <button>Download CV</button>
+                </div>
+        </div>
+        <div class="cols cols1">
+          <div class="imgbox">
+            <img src="matrix.png" id="splash">
+            <img src="fatou.png" >
+          </div>
+        </div>
+        </section>
+          <section class="about">
+               <div class="heading">
+                  <h2>About me</h2>
+                 </div>
+                  <div class="content">
+                        <div class="contentbox 25W">
+                              <h3>Je suis une développeuse application back end et front end </h3>
+                                    <p>Passionnée par l'art je réalise de nombreuses création de bijoux et d'art déco avec des logiciels informatique. Je découvre l'association descodeuse en 2023 et deviens développeuse web </p>
+                        </div>
+                  </div>
+                </div>
+          </section>
+              <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+                <script>
+                  var typingEffect= new Typed(".multiText",{
+                  strings:["codeur","développeuseweb","designer"],
+                   loop: true, 
+                  typeSpeed:100, 
+                    backSpeed:80,
+                  backDelay:1500
+                  })
+                </script>
+    </body>
